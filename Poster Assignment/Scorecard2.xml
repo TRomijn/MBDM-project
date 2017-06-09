@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Vincent Alkema</LastAuthor>
+  <LastPrinted>2017-06-02T15:23:09Z</LastPrinted>
+  <Created>2017-06-02T15:16:53Z</Created>
+  <LastSaved>2017-06-02T15:24:00Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9660</WindowHeight>
+  <WindowWidth>16095</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>15</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s19" ss:Name="Currency">
+   <NumberFormat
+    ss:Format="_(&quot;€&quot;* #,##0.00_);_(&quot;€&quot;* \(#,##0.00\);_(&quot;€&quot;* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s19">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s19">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s86" ss:Parent="s19">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="83.25"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="76.5"/>
+   <Column ss:Width="96"/>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Policy</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Costs</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Casualties</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Flood Damage</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Dike 1:500 extr.</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">174.72206020000101</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">5.8375939849624059</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">57.981203007518801</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Dike 1:1000 extr.</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">252.84135010000151</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">5.5426415094339623</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">56.328301886792453</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Dike 2nd Q x 1.5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">221.4144967578768</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">5.359954794520549</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">53.708904109589042</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">DC Dikes</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">30.96642036363636</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">4931.818181818182</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">RfR Large Scale</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">269</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">62.668692500000013</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1631.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Dike 1:500 +0.5m</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">164.14760324</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">44.399980000000014</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">3716.8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Dike 1:1000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">184.67780902000001</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">16.845500000000001</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">2600.8000000000002</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>250</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C4:R8C4</Range>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C3:R8C3</Range>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C2:R8C2</Range>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>
